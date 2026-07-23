@@ -23,6 +23,20 @@ MeshWeb is an **open protocol specification** for decentralized file storage ove
 
 **This is not a product. This is a protocol.**
 
+## 5-Minute Implementer Path
+
+If you want to build your own MeshWeb node or SDK in any language:
+
+```
+1. Read the specs        →  rfcs/ and docs/rfcs/
+2. Study the test data   →  golden-vectors/
+3. Write your code       →  (any language)
+4. Validate it           →  go run ./cmd/meshweb-compliance/main.go -target <your-node> -level 5
+5. Get certified         →  certificate.json is generated automatically on PASS
+```
+
+New to this repo? See the full [Getting Started](docs/GETTING_STARTED.md) guide for a step-by-step learning path.
+
 ## Repository Structure
 
 ```
@@ -33,7 +47,8 @@ meshweb-protocol/
 ├── cmd/meshweb-compliance/  # Compliance CLI auditor
 ├── docs/
 │   ├── adr/                 # Architecture Decision Records (ADR-0001 .. ADR-0007)
-│   └── rfcs/                # Extended RFC documents
+│   ├── rfcs/                # Extended RFC documents
+│   └── GETTING_STARTED.md   # Learning path for new implementers
 │
 ├── client/                  # Reference Go client SDK
 ├── node/                    # Reference storage node engine
