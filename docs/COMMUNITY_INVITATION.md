@@ -29,18 +29,20 @@ We encourage participants to implement the protocol using:
 * Golden Test Vectors
 * `meshweb-compliance`
 
-The reference Go implementation is available as a guide, but implementers who wish to perform a strict clean-room exercise may choose not to consult it. Both approaches provide immense value for validating protocol interoperability.
+The reference Go implementation is available as a guide, but implementers who wish to perform a strict clean-room exercise may choose not to consult it. Neither approach is considered more authoritative than the other; protocol compliance is determined by the written specification and compliance suite.
 
-## Success Criteria
+## Possible Outcomes
 
-A successful implementation should:
+We welcome all of the following outcomes:
 
-* correctly exchange protocol messages;
-* pass the published compliance suite;
-* generate a valid compliance certificate (`certificate.json`);
-* interoperate with existing MeshWeb implementations.
+* Successful interoperable implementations
+* Reports of specification ambiguities
+* Compliance suite issues or feature gaps
+* Golden Test Vector inconsistencies
+* Interoperability edge cases
+* Documentation and developer experience improvements
 
-Bug reports, specification ambiguity reports, and interoperability edge cases are just as valuable as complete implementations.
+Bug reports, ambiguity reports, and edge cases are just as valuable to the protocol's evolution as fully working implementations.
 
 ## Resources & Links
 
@@ -48,4 +50,4 @@ Bug reports, specification ambiguity reports, and interoperability edge cases ar
 * **Getting Started Guide**: [docs/GETTING_STARTED.md](GETTING_STARTED.md)
 * **Compliance Auditor CLI**: `cmd/meshweb-compliance/`
 
-We welcome feedback, issues, and pull requests!
+We welcome questions, implementation reports, interoperability results, bug reports, specification ambiguity reports, issues, and pull requests!
