@@ -1,6 +1,20 @@
 # Getting Started with MeshWeb Protocol
 
-This guide walks you through the MeshWeb Protocol from zero to a certified implementation.
+```
+Read RFCs
+     │
+     ▼
+Study Golden Vectors
+     │
+     ▼
+Implement (Any Language)
+     │
+     ▼
+Run meshweb-compliance
+     │
+     ▼
+Level 5 PASS → certificate.json
+```
 
 ## Who is this for?
 
