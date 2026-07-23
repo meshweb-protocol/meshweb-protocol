@@ -59,7 +59,7 @@ The [`golden-vectors/`](../golden-vectors/) directory contains machine-readable 
 - `chunk_response_v2.json` — a valid shard response frame
 - `payload.sha256` — expected SHA-256 digest
 
-**Your implementation must produce and accept data that matches these vectors byte-for-byte.**
+A compliant implementation produces and accepts data that matches these vectors byte-for-byte. See the RFCs for the normative requirements.
 
 ### Step 5: Understand Compliance Levels
 
