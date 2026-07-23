@@ -1,0 +1,52 @@
+# Executables & Binaries
+*.exe
+bin/
+meshwebd*
+meshweb-linux-node
+
+# Temporary & Build Artifacts
+*.pprof
+*.zip
+*.tar
+*.tar.gz
+*.bin
+*.b64
+*.dat
+*.log
+*.csv
+*.out
+*.utf8
+*.diff
+
+# Storage Directories & Test Stores
+client_store*/
+compliance-test-out/
+local_testnet/
+temp_shards/
+node1/
+node2/
+node3/
+node4/
+nodeB/
+
+# Legacy / Internal Scratch Scripts
+churn_test.ps1
+monitor_ram.ps1
+run_poc.ps1
+test_*.ps1
+test_timeline.txt
+CODE_AUDIT_REQUEST.md
+retrieved_testfile.txt
+source.tar.gz
+
+# Internal / non-public directories
+internal/
+connectivity/
+daemon/
+metadata/
+metrics/
+repair/
+storage/
+store/
+verification/
+.agents/

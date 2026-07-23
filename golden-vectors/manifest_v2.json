@@ -1,0 +1,25 @@
+{
+  "version": "meshweb-manifest/2",
+  "file_id": "golden_v2_001",
+  "file_name": "sample.bin",
+  "file_size": 1048576,
+  "original_size": 1048576,
+  "data_shards": 2,
+  "parity_shards": 2,
+  "min_shards": 2,
+  "block_size": 524288,
+  "sha256": "5891ba4044d3d52b21f7c327d738090d4b97a7a03470b170943d3270b24dc4b8",
+  "shard_paths": [
+    "shard.00",
+    "shard.01",
+    "shard.02",
+    "shard.03"
+  ],
+  "shard_hashes": [
+    "5891ba4044d3d52b21f7c327d738090d4b97a7a03470b170943d3270b24dc4b8",
+    "5891ba4044d3d52b21f7c327d738090d4b97a7a03470b170943d3270b24dc4b8",
+    "5891ba4044d3d52b21f7c327d738090d4b97a7a03470b170943d3270b24dc4b8",
+    "5891ba4044d3d52b21f7c327d738090d4b97a7a03470b170943d3270b24dc4b8"
+  ],
+  "created_at": 1700000000
+}
